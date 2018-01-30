@@ -1,0 +1,26 @@
+{
+  "name": "exchange-proxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "arena": "node admin/arena.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Eugene K.",
+  "license": "ISC",
+  "dependencies": {
+    "bee-queue": "^1.2.2",
+    "bull-arena": "^2.4.2",
+    "ccxt": "^1.10.809",
+    "commander": "^2.13.0",
+    "dotenv": "^4.0.0",
+    "express": "^4.16.2",
+    "mysql": "^2.15.0",
+    "perfy": "^1.1.2",
+    "request": "^2.83.0",
+    "request-promise-native": "^1.0.5",
+    "winston": "^3.0.0-rc1"
+  }
+}
